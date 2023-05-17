@@ -1,0 +1,620 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+body {
+  font-family: "Inconsolata", monospace;
+  background: #9c60ff;
+}
+
+main {
+  position: absolute;
+  width: 818px;
+  height: 494px;
+  left: 230px;
+  top: 258px;
+  background: #ffffff;
+  box-shadow: -1px 6px 55px rgba(0, 0, 0, 0.16);
+  border-radius: 21px;
+}
+
+#bill {
+  position: absolute;
+  width: 37px;
+  height: 12px;
+  left: 273px;
+  top: 300px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.045em;
+
+  color: #9c60ff;
+}
+#r0 {
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  left: 290px;
+  top: 335px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+
+  color: #9c60ff;
+}
+#amount {
+  position: absolute;
+  box-sizing: border-box;
+  width: 337px;
+  height: 43px;
+  left: 273px;
+  top: 323px;
+  color: #9c60ff;
+
+  background: rgba(182, 172, 196, 0.53);
+  border-radius: 3px;
+  font-family: "Monospaceland", monospace;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 35;
+}
+
+#tip {
+  position: absolute;
+  width: 99px;
+  height: 16px;
+  left: 273px;
+  top: 396px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 16px;
+
+  letter-spacing: 0.045em;
+
+  color: #9c60ff;
+}
+
+#tip1 {
+  position: absolute;
+  width: 106px;
+  height: 44px;
+  left: 273px;
+  top: 429px;
+
+  background: #9c60ff;
+  border-radius: 4px;
+}
+#t5 {
+  position: absolute;
+  width: 27px;
+  height: 20px;
+  left: 311px;
+  top: 439px;
+
+  font-family: "Monospaceland", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+
+  color: #e9dbff;
+}
+
+#t10 {
+  position: absolute;
+  width: 41px;
+  height: 20px;
+  left: 419px;
+  top: 439px;
+
+  font-family: "Monospaceland", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+
+  color: #e9dbff;
+}
+
+#t15 {
+  position: absolute;
+  width: 41px;
+  height: 20px;
+  left: 540px;
+  top: 439px;
+
+  font-family: "Monospaceland", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+
+  color: #e9dbff;
+}
+#t25 {
+  position: absolute;
+  width: 41px;
+  height: 20px;
+  left: 306px;
+  top: 495px;
+
+  font-family: "Monospaceland", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+
+  color: #e9dbff;
+}
+#t50 {
+  position: absolute;
+  width: 41px;
+  height: 20px;
+  left: 419px;
+  top: 495px;
+
+  font-family: "Monospaceland", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+
+  color: #e9dbff;
+}
+#t75 {
+  position: absolute;
+  width: 41px;
+  height: 20px;
+  left: 540px;
+  top: 495px;
+
+  font-family: "Monospaceland", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+
+  color: #e9dbff;
+}
+
+#tip2 {
+  position: absolute;
+  width: 106px;
+  height: 44px;
+  left: 388px;
+  top: 429px;
+
+  background: #9c60ff;
+  border-radius: 4px;
+}
+
+#tip3 {
+  position: absolute;
+  width: 106px;
+  height: 44px;
+  left: 507px;
+  top: 429px;
+
+  background: #9c60ff;
+  border-radius: 4px;
+}
+#tip4 {
+  position: absolute;
+  width: 106px;
+  height: 44px;
+  left: 273px;
+  top: 485px;
+
+  background: #9c60ff;
+  border-radius: 4px;
+}
+#tip5 {
+  position: absolute;
+  width: 106px;
+  height: 44px;
+  left: 388px;
+  top: 485px;
+
+  background: #9c60ff;
+  border-radius: 4px;
+}
+#tip6 {
+  position: absolute;
+  width: 106px;
+  height: 44px;
+  left: 507px;
+  top: 485px;
+
+  background: #9c60ff;
+  border-radius: 4px;
+}
+
+p {
+  position: absolute;
+  width: 131px;
+  height: 16px;
+  left: 273px;
+  top: 576px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.045em;
+
+  color: #9c60ff;
+  margin: 7px;
+}
+
+#noOfPeople {
+  position: absolute;
+  width: 335px;
+  height: 38px;
+  left: 279px;
+  top: 603px;
+
+  background: rgba(182, 172, 196, 0.53);
+  border-radius: 3px;
+}
+
+img {
+  position: absolute;
+
+  height: 16px;
+  width: 16px;
+  left: 289px;
+  top: 614px;
+  border-radius: 0px;
+}
+#small {
+  position: absolute;
+  border-width: 2px;
+  border-style: inset;
+  border-color: #9c60ff;
+  border-image: initial;
+  width: 120px;
+  height: 35px;
+  left: 490px;
+  top: 603px;
+  border-radius: 3px;
+  background-color: white;
+}
+#small1 {
+  position: absolute;
+  border-width: 2px;
+  border-style: inset;
+  border-color: #9c60ff;
+  border-image: initial;
+  width: 35px;
+  height: 35px;
+  left: 575px;
+  top: 603px;
+  border-radius: 3px;
+  background-color: white;
+}
+#small2 {
+  position: absolute;
+  border-width: 2px;
+  border-style: inset;
+  border-color: #9c60ff;
+  border-image: initial;
+  width: 35px;
+  height: 35px;
+  left: 490px;
+  top: 603px;
+  border-radius: 3px;
+  background-color: white;
+}
+#add {
+  position: absolute;
+  width: 25px;
+  height: 40px;
+  left: 502px;
+  top: 607px;
+
+  font-family: "Monospaceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+#num {
+  position: absolute;
+  width: 12px;
+  height: 21px;
+  left: 545px;
+  top: 608px;
+
+  font-family: "Monospaceland", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+
+  color: #9c60ff;
+}
+#sub {
+  position: absolute;
+  width: 59px;
+  height: 30px;
+  left: 590px;
+  top: 606px;
+
+  font-family: "Monospaceland";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+#generateBox {
+  position: absolute;
+  width: 337px;
+  height: 46px;
+  left: 273px;
+  top: 662px;
+
+  background: #fbfafb;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.43);
+  border-radius: 9px;
+}
+#generateBill {
+  position: absolute;
+  width: 129px;
+  height: 20px;
+  left: 375px;
+  top: 675px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 20px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #8f8f8f;
+}
+
+#purple {
+  position: absolute;
+  width: 367px;
+  height: 370px;
+  left: 641px;
+  top: 325px;
+
+  background: #9c60ff;
+  border-radius: 11px;
+}
+
+#tipAmtP {
+  position: absolute;
+  width: 89px;
+  height: 17px;
+  left: 677px;
+  top: 371px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+
+  letter-spacing: 0.045em;
+
+  color: #f3e4ff;
+}
+
+#person1 {
+  position: absolute;
+  width: 59px;
+  height: 10px;
+  left: 677px;
+  top: 394px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 0.045em;
+
+  color: #c39fff;
+}
+
+#tipAmount {
+  position: absolute;
+  width: 126px;
+  height: 38px;
+  left: 854px;
+  top: 361px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+
+  color: #c39fff;
+}
+
+#Total {
+  position: absolute;
+  width: 43px;
+  height: 17px;
+  left: 677px;
+  top: 457px;
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0.045em;
+  color: #f3e4ff;
+}
+
+#person2 {
+  position: absolute;
+  width: 59px;
+  height: 10px;
+  left: 677px;
+  top: 484px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 0.045em;
+
+  color: #c39fff;
+}
+
+#totalAmt {
+  position: absolute;
+  width: 126px;
+  height: 38px;
+  left: 854px;
+  top: 444px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+
+  color: #c39fff;
+}
+#r1 {
+  position: absolute;
+  width: 126px;
+  height: 38px;
+  left: 832px;
+  top: 363px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+
+  color: #c39fff;
+}
+#r2 {
+  position: absolute;
+  width: 126px;
+  height: 38px;
+  left: 832px;
+  top: 444px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+
+  color: #c39fff;
+}
+#reset {
+  box-sizing: border-box;
+  position: absolute;
+  width: 295px;
+  height: 43px;
+  left: 682px;
+  top: 617px;
+
+  background: #c39fff;
+  border-radius: 5px;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.19em;
+  text-align: left;
+  padding-top: 12;
+  padding-left: 112;
+  color: #9c60ff;
+}
+
+#perP{
+  position: absolute;
+  width: 153px;
+  height: 17px;
+  left: 677px;
+  top: 541px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.045em;
+
+  color: #f3e4ff;
+}
+#r3{
+  position: absolute;
+  width: 126px;
+  height: 38px;
+  left: 832px;
+  top: 529px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+
+  color: #c39fff;
+}
+#perPersonBill{
+  position: absolute;
+  width: 126px;
+  height: 38px;
+  left: 854px;
+  top: 527px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+
+  color: #c39fff;
+}
